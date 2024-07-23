@@ -23,7 +23,7 @@ spec:
         fsGroup: 65534
       containers:
         - name: hello-world
-          image: kaimanson/hello-world:1
+          image: kaimanson/hello-world:4
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
